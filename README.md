@@ -2,7 +2,7 @@
 
 random item function in ruby
 
-similar to [Rando](https:github.com/nastyox/Rando.js) but in ruby
+similar to [Rando](https://github.com/nastyox/Rando.js) but in ruby
 
 ```ruby
 rando = Rando.new
