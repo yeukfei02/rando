@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = 'rando'
-  s.version     = '0.1.0'
+  s.version     = '0.1.1'
   s.summary     = 'Random item generator'
   s.description = 'Random item generator'
   s.authors     = ['Donald Wu']
