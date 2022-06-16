@@ -18,7 +18,7 @@ rando.rando(true, false)            # either true or false
 rando.rando(["a", "b"])             # {index:..., value:...} object representing a value of the provided array OR false if array is empty  
 rando.rando({a: 1, b: 2})           # {key:..., value:...} object representing a property of the provided object OR false if object has no properties
 rando.rando("Gee willikers!")       # a character from the provided string OR false if the string is empty. Reoccurring characters will naturally form a more likely return value  
-rando.rando(nil)                   # ANY invalid arguments return false  
+rando.rando(nil)                    # ANY invalid arguments return false  
 ```
 
 ```ruby
@@ -27,7 +27,7 @@ rando.rando_sequence(5, 10)          # an array of integers from 5 through 10 in
 rando.rando_sequence(["a", "b"])     # an array of {index:..., value:...} objects representing the values of the provided array in random order  
 rando.rando_sequence({a: 1, b: 2})   # an array of {key:..., value:...} objects representing the properties of the provided object in random order     
 rando.rando_sequence("Good gravy!")  # an array of the characters of the provided string in random order  
-rando.rando_sequence(nil)           # ANY invalid arguments return false
+rando.rando_sequence(nil)            # ANY invalid arguments return false
 ```
 
 ## Requirement
