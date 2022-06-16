@@ -3,13 +3,13 @@
 # Rando
 class Rando
   def rando(*args)
-    puts "args = #{args}"
+    # puts "args = #{args}"
 
     execute(args, false)
   end
 
   def rando_sequence(*args)
-    puts "args = #{args}"
+    # puts "args = #{args}"
 
     execute(args, true)
   end
