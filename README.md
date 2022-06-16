@@ -5,6 +5,12 @@ random item function in ruby
 similar to [Rando](https://github.com/nastyox/Rando.js) but in ruby
 
 ```ruby
+# install lib
+bundle add rando
+```
+
+
+```ruby
 rando = Rando.new
 ```
 
