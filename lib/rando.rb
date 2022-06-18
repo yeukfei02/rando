@@ -16,7 +16,7 @@ class Rando
 
   private
 
-  def execute(args, with_sequence)
+  def execute(args, with_sequence = false)
     result = rand(0..1).to_f
 
     if !args.nil? && !args.empty?
@@ -39,7 +39,7 @@ class Rando
     result
   end
 
-  def args_length1(item, with_sequence)
+  def args_length1(item, with_sequence = false)
     result = nil
 
     if !item.nil?
@@ -90,7 +90,7 @@ class Rando
         end
       elsif item.instance_of?(String)
         if !item.nil? && !item.empty?
-          chars_list = item.split('')
+          chars_list = item.chars
 
           if !with_sequence
             result = chars_list.sample
@@ -109,7 +109,7 @@ class Rando
     result
   end
 
-  def args_length2(item, item2, with_sequence)
+  def args_length2(item, item2, with_sequence = false)
     result = nil
 
     boolean_list = [true, false]
@@ -135,7 +135,7 @@ class Rando
     result
   end
 
-  def args_length3(item, item2, item3, _with_sequence)
+  def args_length3(item, item2, item3, _with_sequence = false)
     result = nil
 
     if item.instance_of?(Integer) && item2.instance_of?(Integer) && item3.instance_of?(String) && (item3 == 'float')
